@@ -3,7 +3,7 @@ package com.acme.ecommerce.controller;
 import static com.acme.ecommerce.controller.CartController.addCart;
 
 import com.acme.ecommerce.domain.Product;
-import com.acme.ecommerce.domain.ProductNotFoundException;
+import com.acme.ecommerce.exceptions.ProductNotFoundException;
 import com.acme.ecommerce.domain.ProductPurchase;
 import com.acme.ecommerce.domain.ShoppingCart;
 import com.acme.ecommerce.service.ProductService;

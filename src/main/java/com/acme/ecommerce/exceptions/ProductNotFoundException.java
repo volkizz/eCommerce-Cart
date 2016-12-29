@@ -1,4 +1,4 @@
-package com.acme.ecommerce.domain;
+package com.acme.ecommerce.exceptions;
 
 public class ProductNotFoundException extends RuntimeException {
   public ProductNotFoundException(Long id) {

@@ -2,7 +2,7 @@ package com.acme.ecommerce.service;
 
 import com.acme.ecommerce.exceptions.OrderQuantityExceedsStockException;
 import com.acme.ecommerce.domain.Product;
-import com.acme.ecommerce.domain.ProductNotFoundException;
+import com.acme.ecommerce.exceptions.ProductNotFoundException;
 import com.acme.ecommerce.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

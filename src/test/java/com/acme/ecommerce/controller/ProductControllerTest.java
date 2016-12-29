@@ -10,7 +10,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.acme.ecommerce.Application;
 import com.acme.ecommerce.domain.Product;
-import com.acme.ecommerce.domain.ProductNotFoundException;
+import com.acme.ecommerce.exceptions.ProductNotFoundException;
 import com.acme.ecommerce.domain.ProductPurchase;
 import com.acme.ecommerce.domain.Purchase;
 import com.acme.ecommerce.domain.ShoppingCart;
